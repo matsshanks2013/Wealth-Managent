@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: WealthMgmt - 1
+  host: wealthmgmt---1
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-ju
+  - Cloudant NoSQL DB-r2
